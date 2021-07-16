@@ -1,0 +1,12 @@
+{
+  "dev": {
+    "ENV": "INCIDENT_REPORT_DEV_DATABASE_URL"
+  },
+  "test":{
+    "ENV": "INCIDENT_REPORT_TEST_DATABASE_URL"
+  },
+  "prod":{
+      "ENV": "INCIDENT_REPORT_PROD_DATABASE_URL"
+  },
+  "sql-file": true
+}

@@ -1,0 +1,10 @@
+import dotenv from 'dotenv-safe';
+
+dotenv.config();
+
+const { INCIDENT_REPORT_TEST_DATABASE_URL, WEATHER_API_TEST_KEY, INCIDENT_REPORT_SECRET = '' } = process.env;
+export default {
+  DATABASE_URL: INCIDENT_REPORT_TEST_DATABASE_URL,
+  WEATHER_API_KEY: WEATHER_API_TEST_KEY,
+  INCIDENT_REPORT_SECRET,
+};
